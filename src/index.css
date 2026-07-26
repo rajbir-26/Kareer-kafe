@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+/* -------------------------------------------------- */
+/* Font Declarations                                  */
+/* -------------------------------------------------- */
+
+@font-face {
+  font-family: "Moara";
+  src: url("/Fonts/MoaraDemo-Bold-BF693fed28adadd.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ArialCustomBold";
+  src: url("/Fonts/Arial Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* -------------------------------------------------- */
+/* Theme Tokens                                       */
+/* -------------------------------------------------- */
+
+:root {
+  --bg-brand: #FFFBD4;
+  --text-brand: #A90E02;
+  --border-brand: rgba(169, 14, 2, 0.2);
+}
+
+@theme {
+  --color-brand-bg: var(--bg-brand);
+  --color-brand-text: var(--text-brand);
+  --color-brand-border: var(--border-brand);
+}
+
+/* -------------------------------------------------- */
+/* Global Base Typography                              */
+/* -------------------------------------------------- */
+
+body {
+  background-color: var(--bg-brand);
+  color: var(--text-brand);
+  font-family: "ArialCustomBold", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Display Font: Main Page / Hero Titles Only */
+.font-moara,
+.font-lumiare {
+  font-family: "Moara", serif;
+  letter-spacing: 0.02em;
+}
+
+/* UI Font: Cards, Subheadings, Badges, Labels, Body Copy */
+.font-arial,
+.font-eternalo {
+  font-family: "ArialCustomBold", Arial, sans-serif;
+}
