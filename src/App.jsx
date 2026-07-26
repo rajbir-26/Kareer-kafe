@@ -7,6 +7,9 @@ import Tips from './pages/Tips';
 import TipDetails from './pages/TipDetails';
 import About from './pages/About';
 import Pricing from './pages/Pricing';
+import PrivacyPolicy from './pages/PrivacyPolicy';
+import TermsOfUse from './pages/TermsOfUse';
+import NotFound from './pages/NotFound'; // 👈 Import NotFound page
 import MouseEffects from './components/MouseEffects';
 
 export default function App() {
@@ -35,6 +38,11 @@ export default function App() {
           <Route path="/tips/:id" element={<TipDetails />} />
           <Route path="/about" element={<About />} />
           <Route path="/pricing" element={<Pricing />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/terms-of-use" element={<TermsOfUse />} />
+
+          {/* Catch-all 404 Route */}
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
     </Router>

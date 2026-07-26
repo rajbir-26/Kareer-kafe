@@ -37,14 +37,14 @@ export default function About() {
               </h1>
 
               <p className="text-brand-text/80 text-xs sm:text-base leading-relaxed font-semibold max-w-2xl mx-auto tracking-normal font-arial">
-                No hidden paywalls, no endless application loops, and zero fake listings. ApplyNest was built out of pure frustration with modern job portals.
+                No hidden paywalls, no endless application loops, and zero fake listings. KareerKafe was built out of pure frustration with modern job portals.
               </p>
             </div>
 
             {/* Grid Layout for Q&A Sections */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 mb-12 sm:mb-16 font-arial">
               
-              {/* 1. What Problem Does ApplyNest Solve? */}
+              {/* 1. What Problem Does KareerKafe Solve? */}
               <div className="bg-brand-bg/40 backdrop-blur-sm border-2 border-brand-border rounded-2xl p-5 sm:p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-md hover:border-brand-text font-arial">
                 <div className="text-2xl mb-3">🛠️</div>
                 <h3 className="font-arial text-base sm:text-lg font-extrabold text-brand-text mb-2 tracking-tight">
@@ -55,25 +55,25 @@ export default function About() {
                 </p>
               </div>
 
-              {/* 2. Why Choose ApplyNest over LinkedIn, Internshala, & Indeed? */}
+              {/* 2. Why Choose KareerKafe over LinkedIn, Internshala, & Indeed? */}
               <div className="bg-brand-bg/40 backdrop-blur-sm border-2 border-brand-border rounded-2xl p-5 sm:p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-md hover:border-brand-text font-arial">
                 <div className="text-2xl mb-3">⚡</div>
                 <h3 className="font-arial text-base sm:text-lg font-extrabold text-brand-text mb-2 tracking-tight">
                   Why choose us over legacy platforms?
                 </h3>
                 <p className="text-xs sm:text-sm text-brand-text/80 leading-relaxed font-semibold tracking-normal font-arial">
-                  Unlike traditional job portals that are cluttered with social media noise, hidden paywalls, or endless application loops, ApplyNest cuts straight to what matters: verified roles, zero fluff, and direct application links.
+                  Unlike traditional job portals that are cluttered with social media noise, hidden paywalls, or endless application loops, KareerKafe cuts straight to what matters: verified roles, zero fluff, and direct application links.
                 </p>
               </div>
 
-              {/* 3. What Makes ApplyNest Memorable? */}
+              {/* 3. What Makes KareerKafe Memorable? */}
               <div className="bg-brand-bg/40 backdrop-blur-sm border-2 border-brand-border rounded-2xl p-5 sm:p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-md hover:border-brand-text font-arial">
                 <div className="text-2xl mb-3">🎯</div>
                 <h3 className="font-arial text-base sm:text-lg font-extrabold text-brand-text mb-2 tracking-tight">
-                  What makes ApplyNest memorable?
+                  What makes KareerKafe memorable?
                 </h3>
                 <p className="text-xs sm:text-sm text-brand-text/80 leading-relaxed font-semibold tracking-normal font-arial">
-                  We respect your intelligence and time. From transparent "Free Forever" values to direct employer links and clean UI, ApplyNest doesn't try to lock you inside a portal—we help you leave with an application submitted!
+                  We respect your intelligence and time. From transparent "Free Forever" values to direct employer links and clean UI, KareerKafe doesn't try to lock you inside a portal—we help you leave with an application submitted!
                 </p>
               </div>
 
@@ -81,7 +81,7 @@ export default function About() {
               <div className="bg-brand-bg/40 backdrop-blur-sm border-2 border-brand-border rounded-2xl p-5 sm:p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-md hover:border-brand-text font-arial">
                 <div className="text-2xl mb-3">🕊️</div>
                 <h3 className="font-arial text-base sm:text-lg font-extrabold text-brand-text mb-2 tracking-tight">
-                  How should you feel using ApplyNest?
+                  How should you feel using KareerKafe?
                 </h3>
                 <p className="text-xs sm:text-sm text-brand-text/80 leading-relaxed font-semibold tracking-normal font-arial">
                   Relief and clarity. Job hunting is stressful enough without deceptive ads or paywalls. We want every user to feel empowered, confident, and calm while searching for their next career milestone.
@@ -97,7 +97,7 @@ export default function About() {
                 "Finally... a job portal that doesn't waste my time or ask for my credit card."
               </blockquote>
               <p className="text-xs text-brand-text/70 font-semibold tracking-normal font-arial">
-                — What every first-time ApplyNest user should say.
+                — What every first-time KareerKafe user should say.
               </p>
             </div>
 
