@@ -22,7 +22,7 @@ export default function Jobs() {
 
   // Pagination State
   const [currentPage, setCurrentPage] = useState(1);
-  const jobsPerPage = 6;
+  const jobsPerPage = 10;
 
   // Fetch Jobs on Mount
   useEffect(() => {
@@ -245,4 +245,4 @@ export default function Jobs() {
       </div>
     </div>
   );
-}
+}   
